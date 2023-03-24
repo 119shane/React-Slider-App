@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+
+body {
+    text-align: center;
+ }
+ 
+.title {
+  font-size: 50px;
+  font-weight: 900;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* use webkit for style input thumb as below */
+
+.slider::-webkit-slider-thumb {
+     appearance: none;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background: rgba(0,0,0,.6);
+ }
